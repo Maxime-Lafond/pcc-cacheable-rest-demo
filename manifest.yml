@@ -1,7 +1,7 @@
 ---
 applications:
 - name: my-rest-app
-  path: build/libs/demo-0.0.1-SNAPSHOT.jar
+  path: target/libs/demo-0.0.1-SNAPSHOT.jar
   buildpack: java_buildpack_offline
   services:
-  - mypcc
+  - mgac1-pcc-instance-id-1
