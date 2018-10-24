@@ -38,6 +38,6 @@ public class DemoApplication {
     @Cacheable("test")
     @RequestMapping("/test")
     public String test(String param) {
-        return "param - " + param + " : counter " + counter.getAndIncrement();
+        return "Le paramètre est le suivant " + param + " counter " + counter.getAndIncrement();
     }
 }

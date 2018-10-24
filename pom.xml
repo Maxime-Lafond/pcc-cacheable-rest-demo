@@ -93,9 +93,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <mainClass>pivotal.SDGApp</mainClass>
-                </configuration>
             </plugin>
         </plugins>
     </build>
